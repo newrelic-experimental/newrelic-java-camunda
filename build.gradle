@@ -26,6 +26,7 @@ project.ext {
 
   // Aligned with minimum Java major version supported by latest Java Agent
   javaVersion = JavaVersion.VERSION_1_8
+  //javaVersion = JavaVersion.VERSION_17
 
 }
 
