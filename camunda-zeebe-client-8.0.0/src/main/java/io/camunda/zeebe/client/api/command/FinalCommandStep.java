@@ -11,7 +11,7 @@ import io.camunda.zeebe.client.api.ZeebeFuture;
 @Weave(type = MatchType.Interface)
 public abstract class FinalCommandStep<T> {
 
-	@Trace
+	@Trace(dispatcher = true)
 	public ZeebeFuture<T> send() {
 		NewRelic.getAgent().getTracedMethod().setMetricName("Custom","Camunda","FinalCommandStep",getClass().getSimpleName(),"send");
 		return Weaver.callOriginal();
