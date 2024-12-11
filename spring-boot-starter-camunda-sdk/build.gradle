@@ -1,12 +1,14 @@
 
-// Build.gradle generated for instrumentation module spring-boot-camunda-sdk-8.4
+// Build.gradle generated for instrumentation module spring-boot-starter-camunda-sdk
 
 apply plugin: 'java'
 
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
+
 dependencies {
-
-   implementation 'io.camunda.spring:spring-client-zeebe:8.3.0'
-
+   implementation 'io.camunda:spring-boot-starter-camunda-sdk:8.5.0'
+   
    // New Relic Java Agent dependencies
    implementation 'com.newrelic.agent.java:newrelic-agent:6.4.0'
    implementation 'com.newrelic.agent.java:newrelic-api:6.4.0'
@@ -16,7 +18,7 @@ dependencies {
 
 jar {
   manifest {
-    attributes 'Implementation-Title': 'com.newrelic.instrumentation.labs.spring-boot-camunda-sdk-8.3'
+    attributes 'Implementation-Title': 'com.newrelic.instrumentation.labs.spring-boot-starter-camunda-sdk'
     attributes 'Implementation-Vendor': 'New Relic Labs'
     attributes 'Implementation-Vendor-Id': 'com.newrelic.labs'
     attributes 'Implementation-Version': 1.0
@@ -24,11 +26,5 @@ jar {
 }
 
 verifyInstrumentation {
-	passes 'io.camunda.spring:spring-client-zeebe:[8.3.0,8.3.9)'
-	passes 'io.camunda.spring:spring-client-zeebe:[8.4.0,8.4.13)'
-	passes 'io.camunda.spring:spring-client-zeebe:[8.5.0,8.5.13)'
-	
-	excludeRegex('.*-RC.*')
-	excludeRegex('.*-rc.*')
-	
+   passes 'io.camunda:spring-boot-starter-camunda-sdk:[8.5.0,)'
 }
