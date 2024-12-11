@@ -1,1 +1,5 @@
 rootProject.name = 'java-instrumentation-template'
+include 'spring-boot-camunda-sdk-8.3'
+include 'camunda-zeebe-client-8.0.0'
+include 'camunda-zeebe-client-8.3.0'
+include 'spring-boot-starter-camunda-sdk'
