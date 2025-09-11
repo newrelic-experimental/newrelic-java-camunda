@@ -27,4 +27,8 @@ jar {
 
 verifyInstrumentation {
    passes 'io.camunda:spring-boot-starter-camunda-sdk:[8.5.0,)'
+   excludeRegex '.*rc.*'
+   excludeRegex '.*alpha.*'
+   excludeRegex '.*beta.*'
+
 }
