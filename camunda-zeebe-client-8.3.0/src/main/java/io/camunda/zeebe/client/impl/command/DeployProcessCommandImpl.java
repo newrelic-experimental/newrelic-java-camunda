@@ -1,13 +1,14 @@
 package io.camunda.zeebe.client.impl.command;
 
 import com.newrelic.api.agent.NewRelic;
+import com.newrelic.api.agent.Segment;
 import com.newrelic.api.agent.Trace;
 import com.newrelic.api.agent.weaver.Weave;
 import com.newrelic.api.agent.weaver.Weaver;
-import com.newrelic.instrumentation.labs.camunda.zeebe.client.NRCompletionWrapper;
 
 import io.camunda.zeebe.client.api.ZeebeFuture;
 import io.camunda.zeebe.client.api.response.DeploymentEvent;
+import io.camunda.zeebe.client.impl.ZeebeStreamingClientFutureImpl;
 
 @Weave
 public class DeployProcessCommandImpl {
@@ -16,6 +17,11 @@ public class DeployProcessCommandImpl {
 	public ZeebeFuture<DeploymentEvent> send() {
 		ZeebeFuture<DeploymentEvent>  f = Weaver.callOriginal();
 		
-		return (ZeebeFuture<DeploymentEvent>) f.whenComplete(new NRCompletionWrapper<DeploymentEvent>("DeployProcessCommandImpl", NewRelic.getAgent().getTransaction().startSegment("DeployProcess")));
+		if(f instanceof ZeebeStreamingClientFutureImpl) {
+			Segment segment = NewRelic.getAgent().getTransaction().startSegment("DeployProcess");
+			((ZeebeStreamingClientFutureImpl<?,?>) f).segment = segment;
+		}
+
+		return f;
 	}
 }
