@@ -1,3 +1,6 @@
+## Version: [v1.0.0](https://github.com/newrelic-experimental/newrelic-java-camunda/releases/tag/v1.0.0) | Created: 2025-09-11
+
+
 ## Installation
 
 To install:
