@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/java">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/spring-boot-starter-camunda-sdk/8.6.0/2b97ef3a7b80dc91d1a072bb425adcc84be73976/spring-boot-starter-camunda-sdk-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/spring-boot-starter-camunda-sdk/8.6.0/5096c15d78a0e61a4cc3b5089d327a6afc759831/spring-boot-starter-camunda-sdk-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.newrelic.agent.java/newrelic-agent/6.4.0/e640c171a471a3cf07a6ab7c248640ffc9e10953/newrelic-agent-6.4.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.newrelic.agent.java/newrelic-agent/6.4.0/716c0521d4baa12d9f2b0a005e1ee06a9c180214/newrelic-agent-6.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/com/newrelic/agent/java/newrelic-api/6.4.0/newrelic-api-6.4.0-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/com/newrelic/agent/java/newrelic-api/6.4.0/newrelic-api-6.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-client-java/8.6.0/5a9348b0981bc9d7ab6de584ed8576c050ef5c1b/zeebe-client-java-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-client-java/8.6.0/c315051015bffe7171457439219ba6c4b1bdcb0f/zeebe-client-java-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-workflow-engine/8.6.0/178e09df982e380a7711408549ec68f497f83536/zeebe-workflow-engine-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-workflow-engine/8.6.0/ebf1a6af63faafe929bc925964eb3fb62ab324cf/zeebe-workflow-engine-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-stream-platform/8.6.0/c6cc5454554ac5e535c37d3e787f041a43256c5/zeebe-stream-platform-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-stream-platform/8.6.0/14bb351bbe3d6fe46a14830c3952edd135925a56/zeebe-stream-platform-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-logstreams/8.6.0/b64cf07c32fe6744523b960abed7e533c2ad38/zeebe-logstreams-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-logstreams/8.6.0/8452a3adf55c2175aa6eafb0eabc8f24e7f69/zeebe-logstreams-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-db/8.6.0/9ff6530ce45a9bf1140f03ca85965b971b34f8e1/zeebe-db-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-db/8.6.0/d97bca6abe752ffdafc2aaf895b1802b0abaf96b/zeebe-db-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-snapshots/8.6.0/b45774bacf4659c03c0dfe622a7d8ff865c569b1/zeebe-snapshots-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-snapshots/8.6.0/dc0ef72253e85a9d98ab1f144624e73584133661/zeebe-snapshots-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-scheduler/8.6.0/7450c10cfa3bcf90ea6944d7c36e1ac24a8afe2e/zeebe-scheduler-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-scheduler/8.6.0/ad716184c66f0c5efe340d6c0f2bf218692ad7c2/zeebe-scheduler-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-protocol-impl/8.6.0/fabd84d66ae1bfe993c2d9b8e948ddb0c3d9899e/zeebe-protocol-impl-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-protocol-impl/8.6.0/83091f0d8fff85a0f0fd0384bd5a65663722971b/zeebe-protocol-impl-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-expression-language/8.6.0/2c3d2464593b872cc8fb7ad78e4796a7bf84992d/zeebe-expression-language-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-expression-language/8.6.0/eeca0840c3c57ae1ddcf5883cbe287a82c8fe9e1/zeebe-expression-language-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-dmn/8.6.0/e8089c2a794aa32b0bbe6c277836e2969e21ca01/zeebe-dmn-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-dmn/8.6.0/479001d87544eb9d68388a2700fd016630d5f2e0/zeebe-dmn-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-msgpack-value/8.6.0/c6c1ec36141e604a4164406f1d334e07f2d1d7ea/zeebe-msgpack-value-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-msgpack-value/8.6.0/bacf791e69efd8024fd1e334d696ceb1b9836129/zeebe-msgpack-value-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-auth/8.6.0/9e1e07889a3697d5bcb3edd3edb70933816cd461/zeebe-auth-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-auth/8.6.0/afc8eec1f1e6fd2094efc0bddb4818ba3e1fb6ef/zeebe-auth-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-feel-integration/8.6.0/b9b8e855eaf303c47c3ddac96187d37a1cf6e328/zeebe-feel-integration-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-feel-integration/8.6.0/ac9fdcc86f24a76ec82117832a6c2ae2bc8a532f/zeebe-feel-integration-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-util/8.6.0/92065ee2a9953a4675c4cd1d7e482b522279a792/zeebe-util-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-util/8.6.0/19f9802d5d3e78237479bad9fb707fa36af879d9/zeebe-util-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.3.1/httpclient5-5.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-bpmn-model/8.6.0/f133d486fcd8f952c3ff48977a44bd4b7f7da3d2/zeebe-bpmn-model-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-bpmn-model/8.6.0/fe88e8b68087e4fdd388a47e310ebd987f09050f/zeebe-bpmn-model-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.camunda.bpm.extension.dmn.scala/dmn-engine/1.10.0/46401738e21dbdd7c38325276a8bdb0071bec0ca/dmn-engine-1.10.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.camunda.bpm.extension.dmn.scala/dmn-engine/1.10.0/36439ff5586137938fe211d2e423e45ab52a6c27/dmn-engine-1.10.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/com/cronutils/cron-utils/9.2.1/cron-utils-9.2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.camunda.feel/feel-engine/1.18.0/c557491f2e15c8f24b396949a2b9c8da01cbaf34/feel-engine-1.18.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.camunda.feel/feel-engine/1.18.0/d1367b211698e5406d3d1fdee7a41ca404a7ed03/feel-engine-1.18.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.fasterxml.uuid/java-uuid-generator/5.1.0/8b4f5b9a85c530ade8faf3d6662db31bf430fcd6/java-uuid-generator-5.1.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.fasterxml.uuid/java-uuid-generator/5.1.0/c854cf1358e611d4a566170e4fa0d99606c28ec8/java-uuid-generator-5.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-protocol-jackson/8.6.0/aeedadceb6d47a78231bc4a2f55e2b906487a37e/zeebe-protocol-jackson-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-protocol-jackson/8.6.0/a6e267618f15d024a693198a110f24c92eec643b/zeebe-protocol-jackson-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/springframework/spring-context/6.1.13/spring-context-6.1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/springframework/spring-aop/6.1.13/spring-aop-6.1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/springframework/spring-beans/6.1.13/spring-beans-6.1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/springframework/spring-expression/6.1.13/spring-expression-6.1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/springframework/spring-core/6.1.13/spring-core-6.1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/jakarta/annotation/jakarta.annotation-api/3.0.0/jakarta.annotation-api-3.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.17.2/jackson-dataformat-yaml-2.17.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.2/jackson-datatype-jsr310-2.17.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/msgpack/jackson-dataformat-msgpack/0.9.8/jackson-dataformat-msgpack-0.9.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.17.0/f409092a9f723034a839327029255900a19742b4/commons-lang3-3.17.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.17.0/b17d2136f0460dcc0d2016ceefca8723bdf4ee70/commons-lang3-3.17.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.13.4/d221f9aabd0d659fec60a44fd03c743543b6c58f/micrometer-core-1.13.4-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.13.4/6a333b0ac647afa33616e142797da950ff295b7b/micrometer-core-1.13.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-gateway-protocol-impl/8.6.0/d97f75c309196671ab9712e5cca2d83d9b4634d8/zeebe-gateway-protocol-impl-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-gateway-protocol-impl/8.6.0/57dce1280b84a6b4b60a52c4c50f4cb6bb40b09a/zeebe-gateway-protocol-impl-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.68.0/6d2cd009192babc272a32a9cd583f241c1ed47c8/grpc-stub-1.68.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.68.0/ebd89ad550b74724b1bbe8a04203921ebac5e6d4/grpc-stub-1.68.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.68.0/7d14a9c611a668287d76fd775b39de070fd4a523/grpc-core-1.68.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.68.0/e5630dfd653d7cad78caf7166e36973f55822e6c/grpc-core-1.68.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty/1.68.0/ce762a94ce05291881231931e2d6781817880a44/grpc-netty-1.68.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty/1.68.0/ac762f09db8e74f9b17fff5f7f1bcf9a13c5620/grpc-netty-1.68.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf/1.68.0/d5fbe75410f66b5511a5271d707d572f3a7ec6c0/grpc-protobuf-1.68.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf/1.68.0/b8c1772b35292a853f0707a3512090a8edad1fed/grpc-protobuf-1.68.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-api/1.68.0/fdc30070b8a411da4e9c9a28ca787fe86f96abdf/grpc-api-1.68.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-api/1.68.0/9a9f25c58d8d5b0fcf37ae889a50fec87e34ac08/grpc-api-1.68.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/33.3.0-jre/1d046d01f0c3f02ae264c91e9032695579517473/guava-33.3.0-jre-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/33.3.0-jre/13b4d0924e6023eda04b4c7aa83b32dfedf735a7/guava-33.3.0-jre.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2.5/httpcore5-5.2.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/2.41.0/16db00d32beb704852c57464cc842aedc461d0b1/proto-google-common-protos-2.41.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/2.41.0/13dfa68e2a2693660c0aa91928733f9296e12456/proto-google-common-protos-2.41.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.25.5/fc58beabfba862f33d143fb414d7dde12b0d28a3/protobuf-java-3.25.5-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.25.5/5ae5c9ec39930ae9b5a61b32b93288818ec05ec1/protobuf-java-3.25.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/io/netty/netty-codec-http2/4.1.110.Final/netty-codec-http2-4.1.110.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/io/netty/netty-codec-http/4.1.110.Final/netty-codec-http-4.1.110.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.113.Final/fd073e42ee97cd03c1aa7c18ed350660deac1da0/netty-handler-4.1.113.Final-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.113.Final/df48be9ca640df01c66c1ee88fc2cd91987c31ab/netty-handler-4.1.113.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.113.Final/d86a64cc731a2dac00c00dfa9ee177ba403d69d7/netty-transport-native-unix-common-4.1.113.Final-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.113.Final/e8d1d4ba444e203fd8af42a9d22e1032d89daa32/netty-transport-native-unix-common-4.1.113.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.113.Final/beebff67d6238f157186d4d454a7604b68c4d25c/netty-codec-4.1.113.Final-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.113.Final/370ab9b7c1b31b32423498331c1f723cda3332cb/netty-codec-4.1.113.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.113.Final/4827d2bce555629d4c8b8ebf27203516d0998d71/netty-transport-4.1.113.Final-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.113.Final/8ba0a07b6ca61aefd607ca2a91ebd1cce28f5e3d/netty-transport-4.1.113.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.113.Final/9785b50e99234b07981b0f98ed9428d89546eab8/netty-resolver-4.1.113.Final-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.113.Final/ffe3172485dd1e433271a60195d4a26fd9398be7/netty-resolver-4.1.113.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.113.Final/a6d45f3721617900259246a99d2a726d2d0163b3/netty-buffer-4.1.113.Final-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.113.Final/69462f1f5528fb95477fa3b15a1e755ada0df66/netty-buffer-4.1.113.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.113.Final/d896483e133d3a740f8cd1eef23c4f26df6cdbf/netty-common-4.1.113.Final-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.113.Final/1a7fe68aa349746008e5cff490aa6077728aac5a/netty-common-4.1.113.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-protocol/8.6.0/900d73be14811df03e448d56cfd3abd6322cc095/zeebe-protocol-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-protocol/8.6.0/137d7064e6ec8a59dc71076fdbdf62b31ebc412f/zeebe-protocol-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-msgpack-core/8.6.0/f4de01ae277320423336e0729c44eeaeef281690/zeebe-msgpack-core-8.6.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.camunda/zeebe-msgpack-core/8.6.0/b0e14827793b48c61342e3b0a7ab58f3e0cebe8b/zeebe-msgpack-core-8.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.camunda.bpm.model/camunda-dmn-model/7.22.0-alpha5/e8dd952866e71db0bec3dc16ff3f5a4e2887891/camunda-dmn-model-7.22.0-alpha5-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.camunda.bpm.model/camunda-dmn-model/7.22.0-alpha5/869cc541056d46fd699478e2b3f29a5c96fe3f93/camunda-dmn-model-7.22.0-alpha5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.camunda.bpm.model/camunda-xml-model/7.22.0-alpha5/2f56c1005d63a7e0c7d83ba5fa3fcf535e110a22/camunda-xml-model-7.22.0-alpha5-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.camunda.bpm.model/camunda-xml-model/7.22.0-alpha5/c882c696461878fe90896e73e0a4cb19016c253b/camunda-xml-model-7.22.0-alpha5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.netflix.concurrency-limits/concurrency-limits-core/0.5.2/e975eee15a149ab74b7c27a223b7565f3f17b82d/concurrency-limits-core-0.5.2-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.netflix.concurrency-limits/concurrency-limits-core/0.5.2/1b9b1ee120df19b4aeeb52cec9893b640fb0d38/concurrency-limits-core-0.5.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.rocksdb/rocksdbjni/9.4.0/79024c3d4f03ca6869e2b19aa198aa6871340558/rocksdbjni-9.4.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.rocksdb/rocksdbjni/9.4.0/3de6cfc8e4fd5983f60211dcc1d3acc75567c209/rocksdbjni-9.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.13.4/2465dad98dd79f74ef9c59592f5779337fa6caea/micrometer-observation-1.13.4-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.13.4/2673c9b181ab2512002b23b7ad0f1dd02212696c/micrometer-observation-1.13.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/springframework/spring-jcl/6.1.13/spring-jcl-6.1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.13.4/aea1b580fa80e7bd26e5db75105d69dabd7bfff8/micrometer-commons-1.13.4-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.13.4/edcf69518a4c382c48e19c7fb7d4aedfb115c0c3/micrometer-commons-1.13.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.28.0/e8f57b15a91d274ff61195e53e9762f3232c690f/error_prone_annotations-2.28.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.28.0/59fc00087ce372de42e394d2c789295dff2d19f0/error_prone_annotations-2.28.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.lihaoyi/fastparse_2.13/3.1.1/2c8d0b75cfef93c2e9b3e7903d7a176d8edcd527/fastparse_2.13-3.1.1-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.lihaoyi/fastparse_2.13/3.1.1/43cf268952f28993eb51bf01ab76012ca85b05c3/fastparse_2.13-3.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.lihaoyi/sourcecode_2.13/0.4.0/2f1bf9fea64deaf46823854885f21cf6639e151a/sourcecode_2.13-0.4.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.lihaoyi/sourcecode_2.13/0.4.0/5e754d24fe657d4a58dffed67910f58b26bb953/sourcecode_2.13-0.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.lihaoyi/geny_2.13/1.1.0/16a6e95784a02a4a7e9c13f23f4d9de49d42a36d/geny_2.13-1.1.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.lihaoyi/geny_2.13/1.1.0/19bca2a2446743c7520d3e171b1232b1da789cf8/geny_2.13-1.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.15/74d77ff523df1290b08a35bb2e0534f591649e94/scala-library-2.13.15-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.15/ed6f1d58968b16c5f9067d5cac032d952552de58/scala-library-2.13.15.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/com/auth0/java-jwt/4.4.0/java-jwt-4.4.0-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/com/auth0/java-jwt/4.4.0/java-jwt-4.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.43.0/dfd1d5ec59d04e7bd1ad44e74da445b880cfc2e1/checker-qual-3.43.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.43.0/9425eee39e56b116d2b998b7c2cebcbd11a3c98b/checker-qual-3.43.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/msgpack/msgpack-core/0.9.8/msgpack-core-0.9.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-util/1.68.0/2ad89c1088af8aaf6152875ebabfcf550b855d45/grpc-util-1.68.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-util/1.68.0/674cb39b76ed1394454707626ed7ec454c0779e3/grpc-util-1.68.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.68.0/b41ba55a258cf0d9a872ca9241b967f3704414bf/grpc-context-1.68.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.68.0/cea3830084a2aee37496fff74979c2cf106762db/grpc-context-1.68.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.68.0/55e636263ea1917b14bee8d6fdf144eb2b655234/grpc-protobuf-lite-1.68.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.68.0/fe6a5349fd76e811c19f16e2b3e9453ee339df4b/grpc-protobuf-lite-1.68.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.66.Final/a85fb9f0347cdf95836be8e8d3c3125392963e92/netty-tcnative-boringssl-static-2.0.66.Final-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.66.Final/7b0abf028c27ce6ad0c17a443a13f175fb4eda27/netty-tcnative-boringssl-static-2.0.66.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/io/netty/netty-handler-proxy/4.1.110.Final/netty-handler-proxy-4.1.110.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/io/netty/netty-codec-socks/4.1.110.Final/netty-codec-socks-4.1.110.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/org/hdrhistogram/HdrHistogram/2.2.2/HdrHistogram-2.2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.11.0/bbd772a8634d3d6fea7ffea693535a4bd1c773c0/gson-2.11.0-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.11.0/527175ca6d81050b53bdd4c457a6d6e017626b0e/gson-2.11.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.24/c0234a6e963ee1711d77ce1f409ad1c54e09d76/animal-sniffer-annotations-1.24-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.24/aa9ba58d30e0aad7f1808fce9c541ea3760678d8/animal-sniffer-annotations-1.24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/.m2/repository/io/perfmark/perfmark-api/0.27.0/perfmark-api-0.27.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-classes/2.0.66.Final/20f49cae297a337183c843568206c0c7c8c026d7/netty-tcnative-classes-2.0.66.Final-sources.jar" kind="lib" path="/Users/dhilpipre/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-classes/2.0.66.Final/9588bd2f891157538a78d86c945aa34bf9308dda/netty-tcnative-classes-2.0.66.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/dhilpipre/.m2/repository/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1-sources.jar" kind="lib" path="/Users/dhilpipre/.m2/repository/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-camunda/libs/agent-bridge-datastore.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-camunda/libs/agent-bridge.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-camunda/libs/newrelic-agent-6.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-camunda/libs/newrelic-weaver-scala-api.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-camunda/libs/newrelic-weaver-api.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-camunda/libs/newrelic-api.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/dhilpipre/Open-Source/newrelic-java-camunda/test-lib/instrumentation-test.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+</classpath>
