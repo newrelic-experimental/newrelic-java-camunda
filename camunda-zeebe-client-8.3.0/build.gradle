@@ -7,7 +7,9 @@ dependencies {
    implementation 'io.camunda:zeebe-client-java:8.3.4'
    
    // New Relic Java Agent dependencies
-   implementation fileTree(include: ['*.jar'], dir: '../libs')
+   implementation 'com.newrelic.agent.java:newrelic-agent:' + project.findProperty('java.agent.version')
+   implementation 'com.newrelic.agent.java:newrelic-api:' + project.findProperty('java.agent.version')
+   implementation 'com.newrelic.agent.java:agent-bridge:' + project.findProperty('java.agent.version')
    implementation fileTree(include: ['*.jar'], dir: '../test-lib')
 }
 
@@ -21,5 +23,7 @@ jar {
 }
 
 verifyInstrumentation {
-	passes 'io.camunda:zeebe-client-java:[8.3.0,)'
+	passesOnly 'io.camunda:zeebe-client-java:[8.3.0,)'
+	excludeRegex '.*alpha.*'
+	excludeRegex '.*rc.*'
 }

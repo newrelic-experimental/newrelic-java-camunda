@@ -8,9 +8,9 @@ dependencies {
 
 
    // New Relic Java Agent dependencies
-   implementation 'com.newrelic.agent.java:newrelic-agent:6.4.0'
-   implementation 'com.newrelic.agent.java:newrelic-api:6.4.0'
-   implementation fileTree(include: ['*.jar'], dir: '../libs')
+   implementation 'com.newrelic.agent.java:newrelic-agent:' + project.findProperty('java.agent.version')
+   implementation 'com.newrelic.agent.java:newrelic-api:' + project.findProperty('java.agent.version')
+   implementation 'com.newrelic.agent.java:agent-bridge:' + project.findProperty('java.agent.version')
    implementation fileTree(include: ['*.jar'], dir: '../test-lib')
 }
 
@@ -24,7 +24,7 @@ jar {
 }
 
 verifyInstrumentation {
-	passes 'io.camunda:zeebe-atomix-cluster:[8.0.0,8.0.20)'
-	passes 'io.camunda:zeebe-atomix-cluster:[8.1.0,8.1.16)'
-	passes 'io.camunda:zeebe-atomix-cluster:[8.2.0,8.2.13)'
+	passesOnly 'io.camunda:zeebe-atomix-cluster:[8.0.0,8.0.20)'
+	passesOnly 'io.camunda:zeebe-atomix-cluster:[8.1.0,8.1.16)'
+	passesOnly 'io.camunda:zeebe-atomix-cluster:[8.2.0,8.2.13)'
 }
