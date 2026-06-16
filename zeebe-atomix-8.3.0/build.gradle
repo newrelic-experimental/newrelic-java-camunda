@@ -3,17 +3,17 @@
 
 apply plugin: 'java'
 
-sourceCompatibility = JavaVersion.VERSION_17
-targetCompatibility = JavaVersion.VERSION_17
+
+
 
 dependencies {
    implementation group: 'io.camunda', name: 'zeebe-atomix-cluster', version: '8.3.0'
 
 
    // New Relic Java Agent dependencies
-   implementation 'com.newrelic.agent.java:newrelic-agent:6.4.0'
-   implementation 'com.newrelic.agent.java:newrelic-api:6.4.0'
-   implementation fileTree(include: ['*.jar'], dir: '../libs')
+   implementation 'com.newrelic.agent.java:newrelic-agent:' + project.findProperty('java.agent.version')
+   implementation 'com.newrelic.agent.java:newrelic-api:' + project.findProperty('java.agent.version')
+   implementation 'com.newrelic.agent.java:agent-bridge:' + project.findProperty('java.agent.version')
    implementation fileTree(include: ['*.jar'], dir: '../test-lib')
 }
 
@@ -27,5 +27,5 @@ jar {
 }
 
 verifyInstrumentation {
-	passes 'io.camunda:zeebe-atomix-cluster:[8.3.0,)'
+	passesOnly 'io.camunda:zeebe-atomix-cluster:[8.3.0,)'
 }
